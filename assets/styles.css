@@ -89,7 +89,7 @@
 
 .content-password-two {
     padding:5px;
-    min-height: 8vh;
+    min-height: 100vh;
     background:linear-gradient(177deg, black 20%, rgba(0, 0, 0, 0.767))100%;
     display:flex;
     flex-direction: column;
