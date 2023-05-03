@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Bank</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+
+    <!--LOGIN-->
+
+    <section id="screen-login" class="content">
+        <img class="img-logo" src="./assets/img/logo.png">
+        <form id="form" class="form-initial">
+            <input type="text" id="name" name="form1" placeholder="Digite o seu nome"><br>
+            <input type="text" id="conta" name="form1" placeholder="Digite a conta (123-4)" ><br>
+            <button>Logar</button>
+        </form>
+        <button class='btn-help'><img class="help" src="./assets/img/help.png"></button>
+    </section>
+
+    <!--SENHA-->
+
+    <section id="screen-password" class="content-password">
+        <div class="name-last"></div>
+        <div class="text-name"></div>
+    </section>
+    <Section id="screen-password-two" class="content-password-two">
+        <form class="form-password">
+            <label>Digite sua senha (1234)</label><br>
+            <input type="password" id="password"><br><br>
+            <button id="zero-or-one">0 ou 1</button>
+            <button id="two-or-three">2 ou 3</button>
+            <button id="four-or-five">4 ou 5</button><br>
+            <button id="six-or-seven">6 ou 7</button>
+            <button id="eight-or-nine">8 ou 9</button>
+            <button id="clear">Corrigir</button><br>
+            <button id="btn-password">Confirmar</button>
+        </form>
+        <button class='btn-help-password'><img class="help" src="./assets/img/help.png"></button>
+    </Section>
+
+    <!--HOME-->
+
+    <section>
+        <div id="screen-home" class="content-home">
+            <div id="balance" class="content-balance"></div>
+
+            <!--MENU -->
+
+            <div id="menu" class="content-menu"> 
+                <button><a href="#Card"><img src="./assets/img/CARTAO.png" alt="Botão cartão"></a></button>
+                <button><a href="#screen-loan"><img src="./assets/img/EMPRESTIMO.png" alt="Botão empréstimo"></a></button>
+                <button><a href="#screen-pay"><img src="./assets/img/PAGAMENTO.png" alt="Botão pagamento"></a></button>
+                <button><a href="#screen-pix"><img src="./assets/img/PIX.png" alt="Botão Pix"></a></button>
+                <button><a href="#screen-statement"><img src="./assets/img/EXTRATO.png" alt="Botão extrato"></a></button>
+                <p>Cartão</p>
+                <p>Empréstimo</p>
+                <p>Pagamento</p>
+                <p>Pix</p>
+                <p>Extrato</p>
+            </div>
+
+            <div class="advertising"> 
+                <img src="./assets/img/propaganda.png" alt="propaganda emprestimo">
+            </div>
+
+            <!--CARTAO -->
+
+            <div id = 'Card' class="flex-card">
+                <!--CARTAO 01 -->
+
+                <div id="screen-home-card" class="content-home-card">
+                    <img src="./assets/img/logotipo-visa.png" alt="logo visa">
+                </div>
+                
+                <div class="flex-btn-lr">
+                    <button id="btn-left"><img src='./assets/img/Esquerda.png' alt="Botão esquerdo"></button>
+                    <button id="btn-right"><img src='./assets/img/Direita.png' alt="Botão direito"></button>
+                </div>
+
+                <!--CARTAO 02 -->
+
+                <div id="screen-home-card-two" class=" content-home-card" >
+                    <img src="./assets/img/logotipo-master.png" alt="logo visa">
+                </div>
+
+            </div>
+
+            <!--EMPRESTIMO -->
+
+            <div id="screen-loan" class="content-loan">
+                <div class="loan"> 
+                    <img src="./assets/img/EMPRESTIMO-IMG.png" class="logo emprestimo">
+                </div>
+            </div>
+
+            <!--PAGAMENTO-->
+
+            <div id="screen-pay" class="content-pay">
+                <div class="pay"></div>
+
+            </div>
+
+            <!--PIX-->
+            <div id="screen-pix" class="content-pix">
+                <div class="pix"></div>
+            </div>
+
+            <!--EXTRATO-->
+            
+            <div id="screen-statement" class="content-statement">
+                <div class="statement"></div>
+            </div>
+
+             <!--RODAPÉ -->
+             <div class="fotter-div">
+                <div id="footer" class="content-footer"> 
+                    <button><a href="#menu"><img src="./assets/img/HOME.png" alt="Botão voltar"></a></button>
+                    <button><a href="#Card"><img src="./assets/img/CARTAO.png" alt="Botão cartão"></a></button>
+                    <button><a href="#screen-loan"><img src="./assets/img/EMPRESTIMO.png" alt="Botão empréstimo"></a></button>
+                    <button><a href="#screen-pay"><img src="./assets/img/PAGAMENTO.png" alt="Botão pagamento"></a></button>
+                    <button><a href="#screen-pix"><img src="./assets/img/PIX.png" alt="Botão Pix"></a></button>
+                    <button><a href="#screen-statement"><img src="./assets/img/EXTRATO.png" alt="Botão extrato"></a></button>
+                </div>
+
+             </div>
+
+            
+            
+        </div>  
+    </section>
+
+
+    <!--Carregamento-->
+    
+   <div class="loading"></div>
+   <div id="screen-loading"></div>
+
+   <!--EMPRESTIMO POP UP -->
+
+   <div id="get-loan">
+    <div class="content-get-loan"></div>
+   </div>
+
+    <!--CONFIRMAÇÃO EMPRESTIMO POP UP -->
+    <div id="screen-loan-confirm">
+        <div class="content-loan-confirm">
+            <img class="loan-img"src="./assets/img/atencao.png" alt="icone atenção">
+        </div>
+        <div class="get-loan-confirm-div"></div>
+    </div>
+
+    <!--PAGAMENTO POP UP-->
+    <div id="screen-pay-value">
+        <div class="content-pay-value">
+            <img class="pay-img" src="./assets/img/atencao.png" alt="icone atenção">
+        </div>
+    </div>
+
+    <!--PIX POP UP-->
+    <div id="screen-pix-value">
+        <div class="content-pix-value">
+            <img class="pix-img" src="./assets/img/atencao.png" alt="icone atenção">
+        </div>
+    </div>
+
+    <!--EXTRATO POP UP-->
+    <div id="screen-statement-value">
+        <div class="content-statement-value">
+            <img class="statement-img" src="./assets/img/atencao.png" alt="icone atenção">
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./assets/script.js"></script>
+</body>
+
