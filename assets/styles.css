@@ -151,7 +151,7 @@
 
 .content-home {
     padding:5px;
-    min-height: 256vh;
+    min-height: 177vh;
     background:linear-gradient(177deg,rgb(90, 89, 89) 0%, rgba(95, 95, 95, 0.767))100%;
     display:flex;
     flex-direction: column;
@@ -690,7 +690,7 @@ select{
 
 .content-footer{
     position: fixed;
-    top: 31.5em;
+    top: 94%;
     background: black;
     width: 17.5em;
     padding: 1em;
