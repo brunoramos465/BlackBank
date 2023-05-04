@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    
 }
+
+
 .advertising {
     margin: 0 auto;
 }
@@ -19,6 +22,8 @@
     background:linear-gradient(177deg, black 20%, rgba(0, 0, 0, 0.767))100%;
     display:flex;
     flex-direction: column;
+    overFlow-y: hidden;
+    overFlow-x: hidden;
 }
 
 #screen-loading{ 
@@ -32,7 +37,7 @@
     margin: 0 auto;
     width: 10rem;
     height: 10rem;
-    padding-top: 25%;  
+    padding-top: 40%;  
 }
 
 .form-initial{
@@ -81,7 +86,6 @@
 
 .content-password{
     padding:5px;
-    min-height: 8vh;
     background:black;
     display:flex;
     align-content: space-around;
@@ -93,6 +97,8 @@
     background:linear-gradient(177deg, black 20%, rgba(0, 0, 0, 0.767))100%;
     display:flex;
     flex-direction: column;
+    overFlow-y: hidden;
+    overFlow-x: hidden;
 }
 
 .name-last, .name-last-home{
@@ -106,7 +112,7 @@
 .form-password{
     min-height: 50.5vh;
     margin: 0 auto;
-    padding-top: 20%;
+    padding-top: 30%;
     text-align: center;
     color:white;  
 }
@@ -144,7 +150,7 @@
 .btn-help-password{
     width: 4em;
     height: 4em;
-    margin: 30% auto 0;
+    margin: 10% auto 0;
     background: transparent;
     border: none;
 }
@@ -690,7 +696,7 @@ select{
 
 .content-footer{
     position: fixed;
-    top: 94%;
+    top: 95.5%;
     background: black;
     width: 17.5em;
     padding: 1em;
