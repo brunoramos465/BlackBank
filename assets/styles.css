@@ -163,6 +163,28 @@
     flex-direction: column;
 }
 
+@media only screen and (min-width: 1000px) {
+    .content-home {
+        min-height: 220vh; 
+    }
+    .img-logo {
+        padding-top: 10%;
+    }
+    .btn-help {
+        margin: 10% auto 0;
+    }
+    .form-password {
+        padding-top: 10%;
+    }   
+}
+@media only screen and (min-width: 1400px) {
+    .content-home {
+        min-height: 185vh; 
+    }
+
+}
+  
+
 .content-balance{
     display:flex;
     flex-direction: row;
@@ -181,7 +203,7 @@
     padding-top: 3%;
     padding-bottom: 3%;
     margin: 0 auto;
-    gap: 0.5em;
+    gap: 0.1em;
 }
 .content-menu p{
     font-size: 0.7em;
